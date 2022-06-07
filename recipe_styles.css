@@ -1,0 +1,67 @@
+.banner {
+    height: 70vh;
+    background-image: url("https://i.ibb.co/JvQNpqy/recipe-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.darkenBanner {
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.headerLink {
+    top: 70%;
+    text-decoration: none;
+}
+
+.headerLink:hover {
+    word-spacing: .15em;
+    color: #bbb !important;
+    transition: word-spacing .8s,
+                color 0.8s;   
+}
+
+.brags {
+    flex-direction: column;
+    text-align: center;
+}
+
+.brag-box {
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    border-bottom: 0.5px solid #ccc
+}
+
+.brag-box i {
+    font-size: 2rem;
+}
+
+.featured {
+    margin: 2rem 0 5rem 0;
+    width: 90vw;
+}
+
+.full-list-btn {
+    width: auto;
+}
+
+footer {
+  border-top: 0.5px solid #ccc;
+  color: #999;
+}
+
+@media (min-width: 900px) {
+    .brags {
+        flex-direction: row;
+        border-bottom: 0.5px solid #ccc;
+    }
+
+    .brag-box {
+        width: 15%;
+        border: none !important;
+    }
+
+}

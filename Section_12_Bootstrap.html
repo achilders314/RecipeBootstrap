@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Central</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="/recipe_styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/630570cdd8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Recipe Central <i class="fa-solid fa-bowl-food"></i></a>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Browse Recipes
+                </a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-danger" href="#">Breakfasts</a></li>
+                  <li><a class="dropdown-item text-danger" href="#">Lunches</a></li>
+                  <li><a class="dropdown-item text-danger" href="#">Dinners</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-danger" href="#">Brunch</a></li>
+                  <li><a class="dropdown-item text-danger" href="#">Desserts</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <main>
+          <section class="banner">
+              <div class="darkenBanner position-relative">
+                 <h1 class="text-white position-absolute top-50 start-50 translate-middle">Welcome to Recipe Central!</h1>
+                 <a href="#" class="headerLink text-white position-absolute start-50 translate-middle">Click here to explore our recipes ></a> 
+              </div>
+          </section>
+
+          <section class="brags d-flex justify-content-center">
+            <div class="p-2 brag-box">Browse over 10,000 Recipes!<br>
+              <i class="fa-solid fa-list-check text-dark"></i></div>
+            <div class="p-2 brag-box">Our recipes are from around the globe!<br>
+              <i class="fa-solid fa-earth-americas text-dark"></i></div>
+            <div class="p-2 brag-box">Named the #1 recipe website from NPR!<br>
+              <i class="fa-solid fa-award text-dark"></i></div>
+          </section>
+
+
+
+          <section class="featured mx-auto">
+            <div class="container-lg">
+              <div class="row">
+                <h4 class="text-dark my-4 text-center text-lg-start col-lg-10">Featured Recipes</h4>
+                <a href="#" class="btn btn-outline-danger mx-auto col-lg-2 my-4 full-list-btn">View Full List ></a>
+              </div>
+            </div>
+            <div class="row-lg">
+            <div class="cards d-flex justify-content-evenly col-lg-12 flex-column flex-lg-row">
+            <div class="card shadow my-2 my4-lg mx-auto" style="width: 18rem;">
+                <img src="https://www.thespruceeats.com/thmb/cO72JFFH0TCAufENSxUfqE8TmKw=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/vegan-tofu-tikka-masala-recipe-3378484-hero-01-d676687a7b0a4640a55be669cba73095.jpg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title">Vegan Tikka Masala</h5>
+                  <p class="card-text">You don't have to sacrifice your health to eat delicious food. Try our vegan tikka masala recipe and impress all of your friends for your next dinner party.</p>
+                  <a href="#" class="btn btn-danger">Try it now ></a>
+                </div>
+              </div>
+              <div class="card shadow my-2 my4-lg mx-auto" style="width: 18rem;">
+                <img src="https://www.simplyrecipes.com/thmb/JWjdE8YwikAae0KZuyy6ZJW7Utw=/3000x2001/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1c-c2b1885d27d4481c9cfe6f6286a64342.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Best Homemade Pizza Dough</h5>
+                  <p class="card-text">Whether it's a busy weeknight or a decadent gourmet meal, try our simple but delicious homemade pizza dough.</p>
+                  <a href="#" class="btn btn-danger">Try it now ></a>
+                </div>
+              </div>
+              <div class="card shadow my-2 my4-lg mx-auto" style="width: 18rem;">
+                <img src="https://simply-delicious-food.com/wp-content/uploads/2018/10/breakfast-board-500x375.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Brunch Board</h5>
+                  <p class="card-text">Hosting a brunch party? Our brunch board is sure to impress your friends and family.</p>
+                  <a href="#" class="btn btn-danger">Try it now ></a>
+                </div>
+              </div>
+            </div>
+            </div> 
+          </section>
+          
+      </main>
+    
+      <footer class="text-center">
+        Created by Alison Childers, Web Developer
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
