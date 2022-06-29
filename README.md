@@ -1,13 +1,10 @@
 # RecipeBootstrap
-=
 [Live Demo](http://alisonchilders.com/recipebootstrap/recipecentral.html)
 
 ## Description
-=============
 A recipe website project to practice my Bootstrap and layout skills.
 
 ## Technologies Used:
-=============
 * HTML
 * CSS
 * Bootstrap
@@ -17,7 +14,6 @@ A recipe website project to practice my Bootstrap and layout skills.
 * Font Awesome for icons
 
 ## Features
-=============
-- Completely mobile-responsive, navbar, main banner, transitioning link on hover, cards
+* Completely mobile-responsive, navbar, main banner, transitioning link on hover, cards
 
 Enjoy!
