@@ -1,14 +1,14 @@
 # RecipeBootstrap
-A recipe website project to practice my bootcamp skills.
+[Live Demo](http://alisonchilders.com/recipebootstrap/recipecentral.html)
 
-Technologies Used:
->-HTML
+## Description
+A recipe website project to practice my Bootstrap and layout skills.
 
->-CSS
-
->-Bootstrap
-
->-Font Awesome for icons
+## Technologies Used:
+* HTML
+* CSS
+* Bootstrap
+* Font Awesome for icons
 
 In my Udemy Bootcamp, we were tasked with taking a static page example and using Bootstrap to imitate the layout, but we could change anything about it we wanted.  
 
