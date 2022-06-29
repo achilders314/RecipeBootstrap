@@ -1,5 +1,5 @@
 # RecipeBootstrap
-=============
+=
 [Live Demo](http://alisonchilders.com/recipebootstrap/recipecentral.html)
 
 ## Description
